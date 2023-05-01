@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="estilos.css" rel="stylesheet">
+    <link
+  href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.2.0/mdb.min.css"
+  rel="stylesheet"
+/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+<script type="text/javascript" src="js/javascript.js"> 
+ </script>
+
+</head>
+<body>
+  <h1>Principal</h1>
+<h5 class="cuatro">Prueba de un titulo más pequeño</h5>
+  <img src="https://images.unsplash.com/photo-1615744455875-7ad33653e8c4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80">
+  <img src="https://cdn.pixabay.com/photo/2015/11/03/10/23/watercolor-1020509_1280.jpg">
+ 
+  <form method="get" action="procesa.php"> 
+
+  <select name="selRango" >
+  <option>Edad</option> 
+    <option value="1">Menor de 18</option>
+    <option value="2">18 a 30</option>
+    <option value="3">31 a 50</option>
+    <option value="4">Mayor de 50</option>
+  </select>
+</form> 
+<h3>Mi primer tilulo en la web</h3>
+
+
+  <script>
+    $(document).ready(function(){
+        $("button").click(function(){
+          $("p").hide();
+        });
+      });
+    </script>
+    <br><br><br><br><br><br><br><br><br><br>
+    <h2>This is a heading</h2>
+
+  <p>This is a paragraph.</p>
+    <p id="test">This is another paragraph.</p>
+    
+    <button>Click me</button>
+
+    <button id="uno">Alert</button>
+<script>
+    $(document).ready(function(){
+      $("#uno").click(function(evento){
+       num=prompt("ingrese un número para seguir o 0 para salir");
+        if(num==0){
+         alert("Has pulsado el enlace...\nAhora serás enviado a DesarrolloWeb.com");}
+      });
+   });
+
+</script>
+</body>
+</html>

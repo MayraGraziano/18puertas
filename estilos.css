@@ -1,0 +1,84 @@
+p{
+color: blue;
+border: double;
+/*font-family: font-family: 'Noto Sans Lepcha', sans-serif;*/
+}
+
+/*div{
+    padding: 20px;
+    margin: 10px;
+    border: 25px solid violet;
+    border-radius: 10px;
+    text-align: center;
+    background-image: url(Imagenes/among-us.jpg);
+    background-size: cover;
+    transform: rotate(-10deg)
+}*/
+ section {
+width: 500px;
+height: 100px;
+}
+#nuevo{
+    color: blueviolet;
+    border: none;
+}
+/*img{
+    width: 300px;
+    height: 300px;
+}*/
+#EstiloPropio{
+    font-family: 'Noto Sans Lepcha', sans-serif;
+    background-color: brown;
+    box-shadow: 10px 20px 10px #509;
+}
+/*body{
+    background-image:url(Imagenes/Bros.jpg) ;
+   background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0px 75px;
+    background-attachment: fixed;
+}*/
+figure {
+    border: thin #c0c0c0 solid;
+    display:flex;
+    flex-flow: column;
+    padding: 5px;
+    max-width: 100px;
+    margin-right: auto;
+    justify-content: left;
+}
+
+img {
+    max-width: 220px;
+    max-height: 80px;
+ 
+}
+
+figcaption {
+    background-color: #222;
+    color: #fff;
+    font: italic smaller sans-serif;
+    padding: 3px;
+    text-align: center;
+}
+/*div{
+    column-count: 10;
+    column-gap: 50px;
+    column-rule: 10px double #ff00ff;
+}*/
+.uno{
+    color: #222;
+    font-size: 100px;
+}
+.container{
+    border-color:10px solid #222;
+}
+h5.cuatro{
+    background-color: aqua;
+}
+h5{
+    background-color: #509;
+}
+@media (min-width: 768px) and (max-width: 1480px){
+    h1{ margin: 10%; }
+}
